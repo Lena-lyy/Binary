@@ -42,4 +42,5 @@ with open("poc.mov", "wb") as f:
         f.write(b'\x00' * 0xFFFF)
 ```
 Running poc.mov causes the system to crash
+
 <img width="640" alt="image" src="https://github.com/user-attachments/assets/0e1b2d05-abd7-46f8-9116-37e3e4c153a0" />
